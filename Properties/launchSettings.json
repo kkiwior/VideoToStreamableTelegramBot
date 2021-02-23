@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VideoToStreamableTelegramBot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
