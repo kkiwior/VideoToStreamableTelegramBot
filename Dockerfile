@@ -21,4 +21,5 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "VideoToStreamableTelegramBot.dll"]
 
-RUN apk add python2
+RUN apk add --no-cache python2
+RUN apk add --no-cache ffmpeg
